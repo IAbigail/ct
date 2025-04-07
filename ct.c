@@ -366,6 +366,7 @@ int getNextToken()
         tkerr(addTk(END), "invalid character");  // Report the invalid character error
         break;  // Exit the loop as we've encountered an invalid character
     }
+     return END;
 }
 
 void showTokens()
